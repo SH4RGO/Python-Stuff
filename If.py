@@ -31,6 +31,13 @@ elif Attempt == Names2:
             print("Destroy The Matrix")
         elif Question == "Meetup":
             print("Check The Telegram:)")
+            Telegram = input("Do You Know The New Telegram Channel y/n : ")
+            if Telegram == "y":
+                print("Okay Then, See You There")
+            elif Telegram == "n":
+                print("Okay , It's This : 16pH7EwHx+fZfi9ycfDCv2T57GJpYMrK+FAbOoL2UaY=")
+            else:
+                print("System Failed Successfully")
 elif Attempt == Names3:
     Andrew1 = input("Enter Your Password Andrew: ")
     if Andrew1 == Pass3:
