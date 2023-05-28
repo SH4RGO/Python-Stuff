@@ -1,8 +1,9 @@
 #-Data
-
+#------------Names
 Names1 = "Amine"
 Names2 = "Neo"
 Names3 = "Andrew"
+#------------Passwords
 Pass1 = "Lp09"
 Pass2 = "Pl89"
 Pass3 = "Lm09"
