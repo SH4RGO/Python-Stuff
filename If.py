@@ -9,6 +9,7 @@ Pass2 = "Pl89"
 Pass3 = "Lm09"
 #-Operation
 Attempt = input("Enter your Name: ")
+#--Amine's Op
 if Attempt == Names1:
     Amine1 = input("Enter Your Password Amine : ")
     if Amine1 == Pass1:
@@ -20,6 +21,9 @@ if Attempt == Names1:
             print("Destroy The Matrix")
         elif Question == "Meetup":
             print("Check The Telegram:)")
+    else:
+        print("Nice Try Agent Smith")
+#--Neo Op
 elif Attempt == Names2:
     Neo1 = input("Enter Your Password Neo: ")
     if Neo1 == Pass2:
@@ -38,6 +42,9 @@ elif Attempt == Names2:
                 print("Okay , It's This : 16pH7EwHx+fZfi9ycfDCv2T57GJpYMrK+FAbOoL2UaY=")
             else:
                 print("System Failed Successfully")
+    else:
+        print("Nice Try Agent Smith")
+#--Andrew Op
 elif Attempt == Names3:
     Andrew1 = input("Enter Your Password Andrew: ")
     if Andrew1 == Pass3:
@@ -50,6 +57,6 @@ elif Attempt == Names3:
         elif Question == "Meetup":
             print("Check The Telegram:)")
     else:
-        print("Incorrect, The Program will stop now")
+        print("Nice Try Agent Smith")
 else:
     print("Try Again")
